@@ -1,5 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        task1();
+        task2();
+    }
+    public static void task1(){
+        byte age = 18;
+        if (age >= 18){
+            System.out.println("congratulation");
+        } else {
+            System.out.println("sorry");
+        }
+    }
+    public static void task2(){
+        byte age = 18;
+        if (age >= 7 && age < 18){
+            System.out.println("ребенок ходит в школу, если его возраст равен или больше 7 годам");
+        } else if (age >= 18 && age < 24) {
+            System.out.println("человек уже закончил школу и может отправляться в университет, если его возраст 18 и больше;");
+        } else if (age >= 24) {
+            System.out.println("человек окончил университет и ему пора искать первую работу, если ему 24 и больше лет.");
+        }
     }
 }
