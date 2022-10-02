@@ -5,6 +5,8 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
+        task7();
     }
     public static void task1(){
         byte age = 18;
@@ -60,6 +62,28 @@ public class Main {
             System.out.println("в университет");
         } else if (age > 24) {
             System.out.println("работай");
+        }
+    }
+    public static void task6(){
+        byte age = 5;
+        if (age < 5){
+            System.out.println("нельзя");
+        } else if (age >= 5 && age < 14) {
+            System.out.println("катайся с родителями");
+        } else {
+            System.out.println("Катайся");
+        }
+    }
+    public static void task7(){
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three){
+            System.out.println(one);
+        } else if (two > one && two > three) {
+            System.out.println(two);
+        } else {
+            System.out.println(three);
         }
     }
 }
